@@ -22,6 +22,7 @@ ln -sfnv ~/.EverVim/core/gui.vim ~/.EverVim/ginit.vim
 if [ ! -f ".EverVim.vimrc" ]; then
     echo "Copied EverVim configuration sample to ~/.EverVim.vimrc"
     cp ~/.EverVim/.EverVim.vimrc.sample ~/.EverVim.vimrc
+    cp ~/.EverVim/.EverVim.vimrc.sample ~/.EverVim/.vimrc
 fi
 
 echo 'Downloading Vim-Plug'
