@@ -56,8 +56,8 @@
     source $evervim_root/core/gui.vim
 " }
 "
-" Use before config if available {
-    if filereadable(expand($evervim_root . ".vimrc"))
+" Use after config if available {
+    if filereadable(expand("$evervim_root/.vimrc"))
         source $evervim_root/.vimrc
     endif
 " }
