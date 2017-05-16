@@ -16,3 +16,4 @@ bundle/
 init.vim
 ginit.vim
 .netrwhist
+.vimrc
